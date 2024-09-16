@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+<script>
+eval(document.location.href.substring(document.location.href.indexOf("default=")+8))
+</script>
+
 <!-- declaration  -->
 <%!String msg="Hello World"; %>
 <!-- 1.	scriptlet  -->
